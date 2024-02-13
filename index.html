@@ -50,22 +50,17 @@
 <script>
   const emojiSets = [
     ['🏔️', '🏖️'],
-	['👨🏻', '🧔🏻‍'],
-	['🐶', '😺'],
 	['🎾', '⚽'],
-	['👽', '🤖'],
 	['🏙️', '🏘️'],
 	['🐺', '🦁'],
 	['🤔🔁💭', '🤷🏻‍➡️💭'],
-	['🍒', '🍓'],
 	['🧀🍰', '🍫🍰'],
 	['🏋️‍🦵', '🏋️‍💪'],
     ['💰', '⌛'],
     ['⌛', '❤️'],
     ['❤️', '👨🏻‍👩🏻‍👧🏻‍👦🏻'],
-	['🦋', '🐞', '🐝', '🐜'],
   ];
-  const targetHash = 'cdb58d8ce1ed6d49dc979393c4151ceb7625aed3122313669262bc76a0fc0077';
+  const targetHash = '29f78d1fef7fe4fbaf8a57b757b89b3fcd1176070098c78f64f0d29c9399f2ef';
 
   let currentSetIndex = 0;
   let choices = '';
@@ -96,7 +91,7 @@
   function checkWin() {
     const hashedChoices = SHA256(choices);
 	// console.log(choices);
-	console.log(hashedChoices);
+	// console.log(hashedChoices);
     if (hashedChoices === targetHash) {
       displayWin();
     } else {
@@ -108,7 +103,7 @@
     const emojisDiv = document.getElementById('emojis');
     emojisDiv.innerHTML = '';
     const roseDiv = document.createElement('div');
-    roseDiv.style.fontSize = '20rem';
+    roseDiv.style.fontSize = '15rem';
     roseDiv.textContent = '🌹';
     emojisDiv.appendChild(roseDiv);
   }

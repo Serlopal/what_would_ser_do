@@ -10,19 +10,14 @@ fd66264df9eaf9700d41fb705a923e8aa4602a98bee2e9a73d69e5a779840d9a
 The set of emojis representing the questions  are the following:
 
 1 - mountains, beach
-2 - bearded man, man
-3 - dog, cat
-4 - tennis, football
-5 - robot, alien
-6 - city, village
-7 - wolf, lion
-8 - overthinking, underthinking
-9 - cherries, strawberries
-10 - cheese cake, chocolate cake
-11 - leg workout, arm workout
-12 - money, time
-13 - time, love
-14 - love, family
-15 - butterfly, ladybug, bee, ant
+2 - tennis, football
+3 - city, village
+4 - wolf, lion
+5 - overthinking, underthinking
+6 - cheese cake, chocolate cake
+7 - leg workout, arm workout
+8 - money, time
+9 - time, love
+10 - love, family
 
 Do not implement the SHA256 algorithm yourself. Instead, assume the interpreter has access to a hashing function named 'SHA256'. 
