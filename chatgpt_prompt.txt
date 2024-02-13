@@ -12,7 +12,7 @@ The set of emojis representing the questions  are the following:
 1 - mountains, beach
 2 - tennis, football
 3 - city, village
-4 - wolf, lion
+4 - sleep, party
 5 - overthinking, underthinking
 6 - cheese cake, chocolate cake
 7 - leg workout, arm workout
